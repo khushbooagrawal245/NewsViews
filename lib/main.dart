@@ -21,8 +21,8 @@ class _MyAppState extends State<MyApp> {
           brightness: Brightness.dark, primaryColor: AppColors.primary),
       home: AnimatedSplashScreen(
         splash: Image.asset("assets/images/Views.png"),
-        backgroundColor: Colors.black,
-        splashIconSize: 400,
+        backgroundColor: Colors.white,
+        splashIconSize: 350,
         duration: 2000,
         nextScreen: Home(),
       ),
